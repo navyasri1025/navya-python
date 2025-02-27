@@ -1,0 +1,5 @@
+n = int(input()) 
+scores = list(map(int, input().split())) 
+sorted_scores = sorted(set(scores), reverse=True)
+runner_up = sorted_scores[1]
+print(runner_up)
